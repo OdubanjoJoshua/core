@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-&91ax!6x2g7c!cw-_3dc#by3svsfaks7fly7tog8ag-ahny+18
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = ['34.227.151.177','*']
+ALLOWED_HOSTS = ['3.83.167.154','*']
 
 
 # Application definition
@@ -84,6 +84,18 @@ WSGI_APPLICATION = 'core.wsgi.application'
 #     }
 # }
 
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME':'burgermandb',
+#         'USER':'postgresbking',
+#         # 'USER':'postgres',
+#         'PASSWORD':'dove24',
+#         'HOST': '127.0.0.1',
+#         'PORT':'5432'
+#     }
+# }
 
 DATABASES = {
     'default': {
