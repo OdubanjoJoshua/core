@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME':'burgermandb',
-        'USER':'postgresbking',
+        'NAME':'burgerdb',
+        'USER':'postgres',
         # 'USER':'postgres',
-        'PASSWORD':'dove24',
+        'PASSWORD':'Layomi2001',
         'HOST': '127.0.0.1',
         'PORT':'5432'
     }
@@ -158,7 +158,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
-try:
-    from .local_settings import *
-except ImportError:
-    pass
+# try:
+#     from .local_settings import *
+# except ImportError:
+#     pass
